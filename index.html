@@ -3,223 +3,254 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-5.3.8-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/png" href="images/logo2.png">
+    <title>Portfolio</title>
 </head>
 <body>
-    <div id="container" class="nav-bar justify-content-between align-items-center d-flex flex-row mx-5 my-5">
-        <img src="images/logo.png" alt="logo" class="img-logo">
-        <div class="nav-tools d-flex flex-row gap-5">
-            <a class="btn-navbar btn btn-lg fw-medium" href="#about">About</a>
-            <a class="btn-navbar btn btn-lg fw-medium" href="#project">Projects</a>
-            <a class="btn-navbar btn btn-lg fw-medium" href="#about">Contact</a>
+    <div class="container">
+        <div id="container" class="nav-bar justify-content-between align-items-center d-flex flex-row mx-5 my-5">
+            <img src="images/logo.png" alt="logo" class="img-logo">
+            <div class="nav-tools d-flex flex-row gap-5">
+                <a class="btn-navbar btn btn-lg fw-medium" href="#about">About</a>
+                <a class="btn-navbar btn btn-lg fw-medium" href="#project">Projects</a>
+                <a class="btn-navbar btn btn-lg fw-medium" href="#contact">Contact</a>
+            </div>
+            <img src="images/dark.png" alt="darkmode" class="img-darkmode">
         </div>
-        <img src="images/dark.png" alt="darkmode" class="img-darkmode">
+
+        <section class="container py-5 justify-content-center">
+            <div class="info row align-items-center justify-content-center my-5">
+                <div class="presentation col-12 col-md-6 d-flex flex-column text-md-start justify-content-center mb-4 mb-md-0">
+                    <p class="h3 title-presentation fs-5 fw-bold">Clément HUBERT</p>
+                    <p class="h1 subtitle-presentation fs-1 fw-black">A passionate web developer</p>
+                    <p class="text-presentation fs-5 mt-4">
+                        Hello! I’m Clément Hubert, a Computer Science student passionate about cybersecurity and software development.
+                        I love tackling challenges and building projects that combine creativity and technical skills.
+                    </p>
+                    <div class="btn-contact-container d-flex  flex-md-row align-items-md-start gap-3 mt-4">
+                        <button href="#contact" class="btn-contact btn btn-lg fw-medium">Contact Me</button>
+                        <p class="d-flex justify-content-center align-items-center ms-3 m-2 fs-4 fw-regular"><i class="fa-solid fa-circle" style="color: #03ff8d; margin-right: 15px;"></i>Available now</p>
+                    </div>
+                </div>
+                <div class="image-presentation col-12 col-md-6 text-center">
+                    <img src="images/photo.png" alt="profile picture" class="img-fluid img-profile">
+
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id ="about" class="About container py-5">
+
+            <div class="row align-items-center flex-wrap">
+
+                <div class="col-12 col-md-5 image-about position-relative d-flex justify-content-center">
+                    <div class="bg-rectangle position-absolute"></div>
+                    <img src="images/photo.jpg" alt="profile picture" class=" img-fluid img-profile position-relative">
+                </div>
+
+                <div class="description col-12 col-md-7">
+
+                    <div class="about-title position-relative d-inline-block mb-3">
+                        <h2 class="fw-bold fs-1">About Me</h2>
+                        <small class="who-am-i position-absolute fw-bold fs-6">— Who I am</small>
+                    </div>
+
+                    <p class="mt-3 text-secondary fw-medium fs-5 mt-4">
+                        Beyond my studies, I’m driven by curiosity and problem-solving.
+                        I enjoy experimenting with new technologies, learning programming languages, 
+                        and developing practical solutions to real-world problems. 
+                        I also value teamwork and adaptability, 
+                        and I constantly seek opportunities to grow through hands-on projects and collaborative experiences.
+                        I work with a variety of tools and languages, including :
+
+                    <div class="d-flex row g-3 my-3 justify-content-center justify-content-md-start">
+                        <div class="col-1 col-sm-1 col-md-1 d-flex flex-column align-items-center mx-2">
+                            <img src="images/phplogo.png" alt="PHP"  class="img-logo my-2">
+                            <span class="badge bg-primary">PHP</span>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 d-flex flex-column align-items-center mx-2">
+                            <img src="images/htmllogo.png" alt="HTML" class="img-logo my-2">
+                            <span class="badge bg-success">HTML</span>
+                        </div> 
+                        <div class="col-1 col-sm-1 col-md-1 d-flex flex-column align-items-center mx-2">
+                            <img src="images/csslogo.png" alt="CSS" class="img-logo my-2">
+                            <span class="badge bg-info text-dark">CSS</span>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 d-flex flex-column align-items-center mx-2">
+                            <img src="images/jslogo.png" alt="JS" class="img-logo my-2">
+                            <span class="badge bg-warning text-dark">JS</span>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 d-flex flex-column align-items-center mx-2">
+                            <img src="images/pythonlogo.png" alt="Python" class="img-logo my-2">
+                            <span class="badge bg-danger">Python</span>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 d-flex flex-column align-items-center mx-2">
+                            <img src="images/clogo.png" alt="C" class="img-logo my-2">
+                            <span class="badge bg-secondary">C</span>
+                        </div>
+                        <div class="col-1 col-sm-1 col-md-1 d-flex flex-column align-items-center mx-2">
+                            <img src="images/c++logo.png" alt="C++" class="img-logo my-2">
+                            <span class="badge bg-dark">C++</span>
+                        </div>
+                    </div>
+
+                    <a href="CV_Clément_Hubert.pdf" class="btn btn-outline-dark mt-2 align-self-start rounded-0 border-4 fw-medium mt-5" download>Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="project" class="Project container py-5">
+
+            <h3 class="text-center fw-bold mb-4">Projects</h3>
+
+
+            <div class="btn-project d-flex justify-content-center gap-3 mb-4">
+                <button class="btn btn-outline-dark rounded-0 border-2 fw-semibold">All Projects</button>
+                <button class="btn btn-outline-dark rounded-0 border-2 fw-semibold">Web</button>
+                <button class="btn btn-outline-dark rounded-0 border-2 fw-semibold">Arduino</button>
+            </div>
+
+
+            <div class="card-project row g-4 justify-content-center">
+
+                <div class="col-md-5 m-4">
+                    <div class="card shadow border-0 h-100 rounded-4">
+                        <img src="images/projetflotte.png" class="card-img-top rounded-top-4">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-center">Space fleet management project</h5>
+                            <p class="text-secondary">
+                                Development of a space fleet management application in Python, with
+                                an object-oriented architecture. Creation of classes to manage the ships,
+                                crews and maintenance operations. Data backup in JSON and
+                                user interface via an interactive menu. Reinforcement of skills in
+                                software structuring and object manipulation
+                            </p>
+                            <h6 class="fw-semibold text-center">Technologies Used</h6>
+                            <div class="d-flex gap-2 mb-3 justify-content-center">
+                                <img src="images/pythonlogo.png" alt="language picture" class="img-logo img-fluid position-relative mx-2 my-2">
+                                <img src="images/poologo.png" alt="language picture" class="img-logo img-fluid position-relative mx-2 my-2">
+                                <img src="images/jsonlogo.png" alt="language picture" class="img-logo img-fluid position-relative mx-2 my-2">
+                            </div>
+                            <div class="d-flex gap-2 justify-content-center">
+                                <a href="https://github.com/clem465/Projet-de-gestion-de-flotte-spatiale" class="btn btn-outline-dark btn-sm">Visit Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-5 m-4">
+                    <div class="card shadow border-0 h-100 rounded-4">
+                        <img src="images/projetflotte.png" class="card-img-top rounded-top-4">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-center">3-speed fan with Arduino</h5>
+                            <p class="text-secondary">
+                                Design of a 3-speed ventilation system controlled by Arduino.
+                                Speed management via transistor and push buttons, display of the level on
+                                a 7-segment display. Custom 3D printed case. Programming in
+                                C++ with the Arduino IDE and wiring on breadboard
+                            </p>
+                            <h6 class="fw-semibold text-center">Technologies Used</h6>
+                            <div class="d-flex gap-2 mb-3 justify-content-center">
+                                <img src="images/c++logo.png" alt="language picture" class="img-logo img-fluid position-relative mx-2 my-2">
+                                <img src="images/arduinologo.png" alt="language picture" class="img-logo img-fluid position-relative mx-2 my-2">
+                                <img src="images/sketchuplogo.png" alt="language picture" class="img-logo img-fluid position-relative mx-2 my-2">
+                            </div>
+                            <div class="d-flex gap-2 justify-content-center">
+                                <a href="https://github.com/clem465/Projet-de-gestion-de-flotte-spatiale" class="btn btn-outline-dark btn-sm">Visit Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 m-4">
+                    <div class="card shadow border-0 h-100 rounded-4">
+                        <img src="images/projetflotte.png" class="card-img-top rounded-top-4">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-center">Creation of an interactive memory game (type Simon)</h5>
+                            <p class="text-secondary">
+                                Development of a Simon game with light and sound sequences.
+                                Use of microcontrollers for input/output management. Design
+                                of a custom case in 3D printing. Drafting of documentation
+                                complete with diagrams and technical explanations.
+                            </p>
+                            <h6 class="fw-semibold text-center">Technologies Used</h6>
+                            <div class="d-flex gap-2 mb-3 justify-content-center">
+                                <img src="images/c++logo.png" alt="language picture" class="img-logo img-fluid position-relative mx-2 my-2">
+                                <img src="images/arduinologo.png" alt="language picture" class="img-logo img-fluid position-relative mx-2 my-2">
+                                <img src="images/sketchuplogo.png" alt="language picture" class="img-logo img-fluid position-relative mx-2 my-2">
+                            </div>
+                            <div class="d-flex gap-2 justify-content-center">
+                                <a href="https://github.com/clem465/Projet-de-gestion-de-flotte-spatiale" class="btn btn-outline-dark btn-sm">Visit Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-5 m-4">
+                    <div class="card shadow border-0 h-100 rounded-4">
+                        <img src="images/projetflotte.png" class="card-img-top rounded-top-4">
+                        <div class="card-body">
+                            <h5 class="fw-bold text-center">Project for creating a responsive web portfolio</h5>
+                            <p class="text-secondary">
+                                Creation of a personal portfolio respecting a pixel-perfect Figma mockup. 
+                                Integration with a CSS framework to produce a modern, accessible and responsive interface. 
+                                Implementation of key sections (reception, presentation, skills, projects, contact) and a form validated on the front side. 
+                                Publication of the online site, enhancing my skills in web integration and responsive design.
+                            </p>
+                            <h6 class="fw-semibold text-center">Technologies Used</h6>
+                            <div class="d-flex gap-2 mb-3 justify-content-center">
+                                <img src="images/htmllogo.png" alt="language picture" class="img-logo img-fluid position-relative mx-2 my-2">
+                                <img src="images/csslogo.png" alt="language picture" class="img-logo img-fluid position-relative mx-2 my-2">
+                                <img src="images/jslogo.png" alt="language picture" class="img-logo img-fluid position-relative mx-2 my-2">
+                            </div>
+                            <div class="d-flex gap-2 justify-content-center">
+                                <a href="https://github.com/clem465/Projet-de-gestion-de-flotte-spatiale" class="btn btn-outline-dark btn-sm">Visit Site</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+        <hr>
+
+        <footer id="contact" class="Contact">
+            <div class="footer-logo d-flex justify-content-center">
+                <img src="images/logo.png" alt="logo" class="img-logo img-fluid">
+            </div>
+
+            <nav class="footer-nav d-flex justify-content-center">
+                <a href="#about" class="btn fw-bold fs-5 mx-2">About</a>
+                <a href="#project" class="btn fw-bold fs-5 mx-2">Project</a>
+                <a href="#contact" class="btn fw-bold fs-5 mx-2">Contact</a>
+            </nav>
+
+            <div class="footer-socials d-flex justify-content-center">
+                <div class="d-flex align-items-center justify-content-center btn-social m-3 rounded-3 shadow">
+                    <a href="https://github.com/clem465" class="d-flex align-items-center" aria-label="GitHub">
+                        <img src="images/githublogo.png" alt="GitHub">
+                    </a>
+                </div>
+                <div class="d-flex align-items-center justify-content-center btn-social mx-2 my-3 rounded-3 shadow">
+                    <a href="https://www.linkedin.com/in/cl%C3%A9ment-hubert-b6776034b/" class="d-flex align-items-center" aria-label="LinkedIn">
+                        <img src="images/linkedinlogo.png" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
+            <hr>
+
+            <p class="d-flex justify-content-center">© 2023 Nimrod. All Rights Reserved.</p>
+
+        </footer>
     </div>
-
-    <section class="container py-5 justify-content-center">
-        <div class="info row align-items-center justify-content-center my-5">
-            <div class="presentation col-12 col-md-6 d-flex flex-column text-md-start justify-content-center mb-4 mb-md-0">
-                <p class="h3 title-presentation fw-bold">Clément HUBERT</p>
-                <p class="h1 subtitle-presentation fw-black">A passionate web developer</p>
-                <p class="text-presentation fw-medium">
-                    Student in computer science, I am gradually building my career around development and cybersecurity.
-                    Curious and motivated, I like to learn new technologies and take on technical challenges through concrete projects.
-                    My goal is to develop strong skills in programming and computer security in order to build a career in this exciting field.
-                </p>
-                <div class="btn-contact-container d-flex  flex-md-row align-items-md-start gap-3 mt-4">
-                    <button class="btn-contact btn btn-lg fw-medium">Contact Me</button>
-                    <p class="available fs-4 fw-regular"><i class="fa-solid fa-circle" style="color: #03ff8d; margin-right: 15px;"></i>Available now</p>
-                </div>
-            </div>
-            <div class="image-presentation col-12 col-md-6 text-center">
-                <img src="images/photo.png" alt="profile picture" class="img-fluid img-profile">
-
-            </div>
-        </div>
-    </section>
-
-    <hr>
-
-    <section id ="about" class="About container py-5">
-
-        <div class="row align-items-center flex-wrap">
-
-            <div class="col-12 col-md-5 image-about position-relative d-flex justify-content-center">
-                <div class="bg-rectangle position-absolute"></div>
-                <img src="images/photo.jpg" alt="profile picture" class=" img-fluid img-profile position-relative">
-            </div>
-
-            <div class="description col-12 col-md-7">
-
-                <div class="about-title position-relative d-inline-block mb-3">
-                    <h2 class="fw-bold">About Me</h2>
-                    <small class="who-am-i position-absolute fw-bold">— Who I am</small>
-                </div>
-
-                <p class="mt-3 text-secondary fw-medium">
-                    I am currently a Bachelor’s student in Computer Science in France, with a strong interest in cybersecurity and software
-                    development. My goal is to build reliable and secure applications while strengthening my skills in programming,
-                    systems, and security in order to contribute to innovative and efficient digital solutions.
-                </p>
-
-                <div class="d-flex flex-row gap-2 my-3">
-                    <div class="container d-flex flex-column align-items-center">
-                        <img src="images/phplogo.png" alt="language picture" class="img-logo img-fluid position-relative my-2">
-                        <span class="badge bg-primary">PhP</span>
-                    </div>
-                    <div class="container d-flex flex-column align-items-center">
-                        <img src="images/htmllogo.png" alt="language picture" class="img-logo img-fluid position-relative my-2">
-                        <span class="badge bg-success">HTML</span>
-                    </div>
-                    <div class="container d-flex flex-column align-items-center">
-                        <img src="images/csslogo.png" alt="language picture" class="img-logo img-fluid position-relative my-2">
-                        <span class="badge bg-info text-dark">CSS</span>
-                    </div>
-                    <div class="container d-flex flex-column align-items-center">
-                        <img src="images/jslogo.png" alt="language picture" class="img-logo img-fluid position-relative my-2">
-                        <span class="badge bg-warning text-dark">JS</span>
-                    </div>
-                    <div class="container d-flex flex-column align-items-center">
-                        <img src="images/pythonlogo.png" alt="language picture" class="img-logo img-fluid position-relative my-2">
-                        <span class="badge bg-danger">Python</span>
-                    </div>
-                    <div class="container d-flex flex-column align-items-center">
-                        <img src="images/clogo.png" alt="language picture" class="img-logo img-fluid position-relative my-2">
-                        <span class="badge bg-secondary">C</span>
-                    </div>
-                    <div class="container d-flex flex-column align-items-center">
-                        <img src="images/c++logo.png" alt="language picture" class="img-logo img-fluid position-relative my-2">
-                        <span class="badge bg-dark">C++</span>
-                    </div>
-                </div>
-
-                <a href="#" class="btn btn-outline-dark mt-2 align-self-start rounded-0 border-4 fw-medium">Download Resume</a>
-            </div>
-        </div>
-    </section>
-
-    <hr>
-
-    <section id="project" class="Project container py-5">
-
-        <h3 class="text-center fw-bold mb-4">Projects</h3>
-
-
-        <div class="btn-project d-flex justify-content-center gap-3 mb-4">
-            <button class="btn btn-dark">All Projects</button>
-            <button class="btn btn-outline-dark">Web</button>
-            <button class="btn btn-outline-dark">Arduino</button>
-        </div>
-
-
-        <div class="card-project row g-4 justify-content-center">
-
-            <div class="col-md-5">
-                <div class="card shadow border-0 h-100 !rounded-0">
-                    <img src="images/projetflotte.png" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="fw-bold text-center">Space fleet management project</h5>
-                        <p class="text-secondary">
-                            Development of a space fleet management application in Python, with
-                            an object-oriented architecture. Creation of classes to manage the ships,
-                            crews and maintenance operations. Data backup in JSON and
-                            user interface via an interactive menu. Reinforcement of skills in
-                            software structuring and object manipulation
-                        </p>
-                        <h6 class="fw-semibold text-center">Technologies Used</h6>
-                        <div class="d-flex gap-2 mb-3 justify-content-center">
-                            <img src="images/pythonlogo.png" alt="language picture" class="img-logo img-fluid position-relative mx-2 my-2">
-                            <img src="images/poologo.png" alt="language picture" class="img-logo img-fluid position-relative mx-2 my-2">
-                            <img src="images/jsonlogo.png" alt="language picture" class="img-logo img-fluid position-relative mx-2 my-2">
-                        </div>
-                        <div class="d-flex gap-2 justify-content-center">
-                            <a href="https://github.com/clem465/Projet-de-gestion-de-flotte-spatiale" class="btn btn-outline-dark btn-sm">Visit Site</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="col-md-5">
-                <div class="card shadow border-0 h-100">
-
-                    <img src="project2.jpg" class="card-img-top">
-
-                    <div class="card-body">
-
-                        <h5 class="fw-bold">Google Earth Tweet Map</h5>
-
-                        <p class="text-secondary">
-                            Working closely with the ONORI-B team, I collaborated to ensure that the website not only met
-                            but exceeded their expectations.
-                        </p>
-
-                        <h6 class="fw-semibold">Technologies Used</h6>
-
-                        <div class="d-flex gap-2 mb-3">
-                            <span class="badge bg-primary">React</span>
-                            <span class="badge bg-warning text-dark">JS</span>
-                            <span class="badge bg-success">Leaflet</span>
-                        </div>
-
-                        <div class="d-flex gap-2">
-                            <a href="#" class="btn btn-dark btn-sm">View Live Demo</a>
-                            <a href="#" class="btn btn-outline-dark btn-sm">Visit Site</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="card shadow border-0 h-100">
-                    <img src="project1.jpg" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="fw-bold">Onari B Website</h5>
-                        <p class="text-secondary">
-                            Working closely with the ONORI-B team, I collaborated to ensure that the website not only met
-                            but exceeded their expectations.
-                        </p>
-                        <h6 class="fw-semibold">Technologies Used</h6>
-                        <div class="d-flex gap-2 mb-3">
-                            <span class="badge bg-primary">React</span>
-                            <span class="badge bg-warning text-dark">JS</span>
-                            <span class="badge bg-info text-dark">Tailwind</span>
-                        </div>
-                        <div class="d-flex gap-2">
-                            <a href="#" class="btn btn-dark btn-sm">View Live Demo</a>
-                            <a href="#" class="btn btn-outline-dark btn-sm">Visit Site</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-5">
-                <div class="card shadow border-0 h-100">
-                    <img src="project1.jpg" class="card-img-top">
-                    <div class="card-body">
-                        <h5 class="fw-bold">Onari B Website</h5>
-                        <p class="text-secondary">
-                            Working closely with the ONORI-B team, I collaborated to ensure that the website not only met
-                            but exceeded their expectations.
-                        </p>
-                        <h6 class="fw-semibold">Technologies Used</h6>
-                        <div class="d-flex gap-2 mb-3">
-                            <span class="badge bg-primary">React</span>
-                            <span class="badge bg-warning text-dark">JS</span>
-                            <span class="badge bg-info text-dark">Tailwind</span>
-                        </div>
-                        <div class="d-flex gap-2">
-                            <a href="#" class="btn btn-dark btn-sm">View Live Demo</a>
-                            <a href="#" class="btn btn-outline-dark btn-sm">Visit Site</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </section>
 </body>
 </html>
