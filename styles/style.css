@@ -1,0 +1,161 @@
+body {
+    background-color: #F0F0F4;
+}
+
+.nav-bar {
+    padding: 10px 60px;
+    .btn-navbar {
+        color: rgb(255, 255, 255);
+        background-color: #26313F;
+        border: 2px solid white;
+    }
+    .img-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .img-darkmode {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.info {
+    .presentation {
+        max-width: 594px;
+        .title-presentation {
+            font-family: 'Satoshi', sans-serif;
+            color :#26313F;
+        }
+        .subtitle-presentation {
+            font-family: 'Satoshi', sans-serif;
+            font-weight: 900;
+            color: #26313F;
+        }
+        .text-presentation {
+            font-family: 'Satoshi', sans-serif;
+            color: #686565;
+        }
+        .btn-contact-container {
+            .btn-contact {
+                color: rgb(255, 255, 255);
+                background-color: #26313F;
+            }
+        }
+    }
+    .image-presentation{
+        width: 452px;
+        height: auto;
+    }
+}
+
+.About {
+
+    .image-about {
+        position: relative;
+        overflow: visible;
+        height: 516px;
+
+        .bg-rectangle {
+            width: 235px;
+            height: 516px;
+            background-color: #151C25;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-109%, -54%);
+            z-index: 0;
+        }
+
+        .img-profile {
+            max-width: 489px;
+            width: auto;
+            position: relative;
+            z-index: 1;
+        }
+    }
+    .description {
+        .about-title {
+            display: inline-block;
+            position: relative;
+            h2 {
+                font-family: 'Satoshi', sans-serif;
+                color: #000000;
+            }
+            small {
+                position: absolute;
+                right: 0;
+                bottom: -14px;
+                font-family: 'Satoshi', sans-serif;
+                color: #26313F;
+            }
+        }
+        p {
+            font-family: 'Satoshi', sans-serif;
+            color: #686565;
+        }
+        .img-logo {
+            width: 40px;
+            height: 40px;
+        }
+    }
+}
+
+.Project {
+    .img-logo {
+        height: 40px;
+        width: auto;
+    }
+}
+
+.Contact {
+    .footer-logo {
+        img {
+            width: 80px;
+            height: auto;
+        }
+    }
+    .footer-socials {
+       img {
+            width: 20px;
+            height: auto;
+        }
+        .btn-social {
+            height: 40px;
+            width: 40px;
+            background-color: #38343F;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .col-md-7 {
+        flex: 0 0 auto !important;
+        width: 60% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        justify-content: center;
+    }
+    .btn-navbar {
+        display: none;
+    }
+    .image-presentation {
+        margin-left: 20px;
+        height: auto;
+    }
+    .col-md-7 {
+        flex: 0 0 auto !important;
+        width: 100% !important;
+    }
+    .About {
+        .description {
+            .img-logo {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+}
