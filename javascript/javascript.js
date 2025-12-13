@@ -61,5 +61,4 @@ filterButtons.forEach(btn => {
             }
         });
     });
-
 });
