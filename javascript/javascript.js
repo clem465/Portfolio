@@ -12,15 +12,15 @@ themeToggles.forEach(toggle => {
         const image4 = document.getElementById("logo2");
 
         if (body.classList.contains("dark-mode")) {
-            image1.src = "../images/logo2.webp";
-            image2.src = "../images/photo2.webp";
-            image4.src = "../images/logo2.webp";
-            image3.src = "../images/light.webp";
+            image1.src = "./images/logo2.webp";
+            image2.src = "./images/photo2.webp";
+            image4.src = "./images/logo2.webp";
+            image3.src = "./images/light.webp";
         } else {
-            image1.src = "../images/logo.webp";
-            image2.src = "../images/photo.webp";
-            image4.src = "../images/logo.webp";
-            image3.src = "../images/dark.webp";
+            image1.src = "./images/logo.webp";
+            image2.src = "./images/photo.webp";
+            image4.src = "./images/logo.webp";
+            image3.src = "./images/dark.webp";
         }
     });
 });
@@ -61,4 +61,5 @@ filterButtons.forEach(btn => {
             }
         });
     });
+
 });
