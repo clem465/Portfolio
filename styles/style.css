@@ -154,7 +154,7 @@ body {
             border-bottom-color: #dc3545;
         }
         .contact-left {
-            background-image: url("./images/GetInTouch.webp");
+            background-image: url("./images/getintouch.webp");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -361,3 +361,4 @@ body {
     }
 
 }
+
