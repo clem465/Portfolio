@@ -1,13 +1,13 @@
 body {
+    font-family: 'Satoshi', sans-serif;
     background-color: #F0F0F4;
 }
 
 .nav-bar {
-    padding: 10px 60px;
     .btn-navbar {
         color: rgb(255, 255, 255);
         background-color: #26313F;
-        border: 2px solid white;
+        border : none !important;
     }
     .img-logo {
         width: 60px;
@@ -18,22 +18,32 @@ body {
         width: 30px;
         height: 30px;
     }
+    .theme-toggle:hover {
+        cursor: pointer;
+    }
+    .dropdown {
+        i {
+            width: 24px;
+            height: 24px;
+        }
+        img {
+            width: 24px;
+            height: 24px;
+        }
+    }
 }
 
 .info {
     .presentation {
         max-width: 594px;
         .title-presentation {
-            font-family: 'Satoshi', sans-serif;
             color :#26313F;
         }
         .subtitle-presentation {
-            font-family: 'Satoshi', sans-serif;
             font-weight: 900;
             color: #26313F;
         }
         .text-presentation {
-            font-family: 'Satoshi', sans-serif;
             color: #686565;
         }
         .btn-contact-container {
@@ -52,7 +62,6 @@ body {
 .About {
 
     .image-about {
-        position: relative;
         overflow: visible;
         height: 516px;
 
@@ -63,14 +72,13 @@ body {
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate(-109%, -54%);
+            transform: translate(-113%, -54%);
             z-index: 0;
         }
 
         .img-profile {
             max-width: 489px;
-            width: auto;
-            position: relative;
+            height: auto;
             z-index: 1;
         }
     }
@@ -79,19 +87,16 @@ body {
             display: inline-block;
             position: relative;
             h2 {
-                font-family: 'Satoshi', sans-serif;
                 color: #000000;
             }
             small {
                 position: absolute;
                 right: 0;
                 bottom: -14px;
-                font-family: 'Satoshi', sans-serif;
                 color: #26313F;
             }
         }
         p {
-            font-family: 'Satoshi', sans-serif;
             color: #686565;
         }
         .img-logo {
@@ -106,9 +111,62 @@ body {
         height: 40px;
         width: auto;
     }
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        color: #26313F;
+        border-color: #26313F;
+    }
+    .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+        color: white;
+        background-color: #26313F;
+        border-color: #26313F;
+    }
+    .card-body {
+        background-color: #26313F;
+        h3 {
+            color: #FFFFFF;
+        }
+        p {
+            color: #A9A9A9;
+        }
+        h4 {
+            color: #FFFFFF;
+        }
+        a {
+            color: #FFFFFF;
+            border-color: #FFFFFF;
+        }
+    }
 }
 
 .Contact {
+    .contact-card {
+        background: #f5f6f8;
+        .btn-interest {
+            border-color: #A9A9A9;
+            color: #A9A9A9;
+        }
+        .btn-interest:hover {
+            background: #26313F;
+            color: white;
+            border-color: #26313F;
+        }
+        .was-validated .input-line:invalid {
+            border-bottom-color: #dc3545;
+        }
+        .contact-left {
+            background-image: url("/images/GetInTouch.webp");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        .btn-submit {
+            background-color: #26313F;
+            color: white;
+        }
+    }
+}
+
+.Contact-me {
     .footer-logo {
         img {
             width: 80px;
@@ -128,29 +186,172 @@ body {
     }
 }
 
-@media (max-width: 1200px) {
-    .col-md-7 {
-        flex: 0 0 auto !important;
-        width: 60% !important;
+.dark-mode {
+    background-color: #151C25;
+    hr {
+        color: #55E5A4;
+
+        }
+    .nav-bar {
+        .btn-navbar {
+            color: black;
+            background-color: #55E5A4;
+        }
+        .dropdown {
+            button {
+                background-color: #151C25;
+                i {
+                    color: #FFFFFF;
+                }
+            }
+        }
+    }
+
+    .info {
+        .presentation {
+            .title-presentation {
+                color : #ffffff;
+            }
+            .subtitle-presentation {
+                color: #55E5A4;
+            }
+            .text-presentation {
+                color: #A9A9A9;
+            }
+            .btn-contact-container {
+                .btn-contact {
+                    color: black;
+                    background-color: #55E5A4;
+                }
+                p {
+                    color: #888888;
+                }
+            }
+        }
+    }
+
+    .About {
+
+        .image-about {
+            .bg-rectangle {
+                background-color: #55E5A4;
+            }
+        }
+        .description {
+            .about-title {
+                h2 {
+                    color: #ffffff;
+                }
+                small {
+                    color: #55E5A4;
+                }
+            }
+            p {
+                color: #A9A9A9;
+            }
+            .skills {
+                p {
+                    color: #A9A9A9;
+                }
+            }
+        }
+        a {
+            color: #55E5A4;
+            border-color: #55E5A4;
+        }
+    }
+
+    .Project {
+        h3 {
+            color: #ffffff;
+        }
+        [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+            color: white;
+            border-color: #55E5A4;
+        }
+        .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+            color: black !important;
+            background-color: #55E5A4 !important;
+            border-color: #55E5A4 !important;
+        }
+    }
+    .Contact {
+        h2 {
+            color: #FFFFFF;
+        }
+        .btn-interest:hover {
+            background: #55E5A4;
+            color: black;
+            border-color: #55E5A4;
+        }
+        .btn-submit {
+            background-color: #55E5A4;
+        }
+    }
+
+    .Contact-me {
+        .footer-socials {
+            .btn-social {
+                background-color: #38343F;
+            }
+        }
+        .footer-nav {
+            a {
+                color: #A9A9A9;
+            }
+        }
+        p {
+            color: #A9A9A9;
+        }
     }
 }
 
 @media (max-width: 768px) {
-    body {
-        justify-content: center;
-    }
-    .btn-navbar {
-        display: none;
-    }
-    .image-presentation {
-        margin-left: 20px;
-        height: auto;
+    .info {
+        .presentation {
+            .subtitle-presentation {
+                font-weight: 900;
+                color: #61C698;
+            }
+            .text-presentation {
+                color: #686565;
+            }
+            .btn-contact-container {
+                .btn-contact {
+                    color: rgb(255, 255, 255);
+                    background-color: #26313F;
+                }
+            }
+            i {
+                color :#61C698 !important;
+            }
+        }
     }
     .col-md-7 {
         flex: 0 0 auto !important;
         width: 100% !important;
     }
     .About {
+        .image-about {
+            height: 256px;
+            .bg-rectangle {
+                width: 200px;
+                height: 250px;
+                background-color: #151C25;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-71%, -57%);
+                z-index: 0;
+            }
+
+            .img-profile {
+                max-width: 300px;
+                max-height: 300px;
+                position: relative;
+                z-index: 1;
+            }
+        }
         .description {
             .img-logo {
                 width: 20px;
