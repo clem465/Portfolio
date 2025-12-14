@@ -1,6 +1,6 @@
 # Portfolio Web – Projet Final
 
-## 👋 Présentation
+## Présentation
 
 Ce projet correspond à l’intégration d’un **portfolio web personnel**, réalisé dans le cadre du module **2FCSS – Frameworks CSS**.
 
@@ -8,7 +8,7 @@ L’objectif est de proposer un site **moderne, responsive, accessible et profes
 
 ---
 
-## 🎯 Objectifs du projet
+## Objectifs du projet
 
 * Intégrer un portfolio web à partir d’une maquette Figma (pixel-perfect)
 * Utiliser un **framework CSS** vu en cours
@@ -21,10 +21,10 @@ L’objectif est de proposer un site **moderne, responsive, accessible et profes
 
 ---
 
-## 🖌️ Maquette Figma
+## Maquette Figma
 
 * Maquette utilisée :
-  👉 **Lien Figma :** https://www.figma.com/design/cAAcnkuswVtXpdi5PX567z/Designer-Developer-Portfolio--Community-?node-id=1-263&t=wjDBUz7LRo7TJ1bD-0
+  **Lien Figma :** https://www.figma.com/design/cAAcnkuswVtXpdi5PX567z/Designer-Developer-Portfolio--Community-?node-id=1-263&t=wjDBUz7LRo7TJ1bD-0
 
 * Aperçu de la maquette :
 
@@ -32,7 +32,7 @@ L’objectif est de proposer un site **moderne, responsive, accessible et profes
 
 ---
 
-## 🧩 Contenu du portfolio
+##  Contenu du portfolio
 
 Le site est composé des sections suivantes :
 
@@ -60,20 +60,20 @@ Le site est composé des sections suivantes :
 
 ---
 
-## 📱 Responsive Design
+## Responsive Design
 
 Le portfolio est entièrement responsive et optimisé pour :
 
-* 📱 Smartphone
-* 📱 Tablette
-* 💻 Ordinateur portable
-* 🖥️ Écran desktop
+* Smartphone
+* Tablette
+* Ordinateur portable
+* Écran desktop
 
-➡️ Aucun scroll horizontal et adaptation fluide selon la taille d’écran.
+Aucun scroll horizontal et adaptation fluide selon la taille d’écran.
 
 ---
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 * **HTML5** (structure sémantique)
 * **CSS / Framework CSS** : *Bootstrap*
@@ -86,7 +86,7 @@ Le portfolio est entièrement responsive et optimisé pour :
 
 ---
 
-## 🚀 Installation et lancement en local
+## Installation et lancement en local
 
 1. Cloner le dépôt :
 
@@ -104,10 +104,10 @@ Le portfolio est entièrement responsive et optimisé pour :
 
 ---
 
-## 🌍 Déploiement
+## Déploiement
 
-* 🔗 **Site en ligne :** *https://clem465.github.io/Portfolio/*
-* 🔗 **Dépôt GitHub :** *[https://github.com/clem465/Portfolio](https://github.com/clem465/Portfolio)*
+* **Site en ligne :** *https://clem465.github.io/Portfolio/*
+* **Dépôt GitHub :** *[https://github.com/clem465/Portfolio](https://github.com/clem465/Portfolio)*
 
 ---
 
@@ -119,15 +119,15 @@ Le portfolio est entièrement responsive et optimisé pour :
 
 ---
 
-## 👤 Auteur
+## Auteur
 
 * **Nom Prénom** : *HUBERT Clément*
-* 📧 Email : *clement.hubert78@gmail.com*
-* 💼 LinkedIn : *https://www.linkedin.com/in/cl%C3%A9ment-hubert-b6776034b/*
+* Email : *clement.hubert78@gmail.com*
+* LinkedIn : *https://www.linkedin.com/in/cl%C3%A9ment-hubert-b6776034b/*
 
 ---
 
-## ✅ Remarques
+## Remarques
 
 Ce projet a été réalisé dans un cadre pédagogique et respecte les consignes suivantes :
 
@@ -139,7 +139,8 @@ Ce projet a été réalisé dans un cadre pédagogique et respecte les consignes
 
 ---
 
-Merci pour votre visite ✨
+Merci pour votre visite
+
 
 
 
