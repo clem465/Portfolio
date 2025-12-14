@@ -142,7 +142,7 @@ body {
         background: #f5f6f8;
         .btn-interest {
             border-color: #A9A9A9;
-            color: #A9A9A9;
+            color: #686565;
         }
         .btn-interest.active,
         .btn-interest:hover {
@@ -282,12 +282,14 @@ body {
         span {
             color: #55E5A4 !important;
         }
-        .btn-interest.active {
+        .btn-interest.active,
+        .btn-interest:hover {
             background: #55E5A4;
             color: black;
             border-color: #55E5A4;
         }
         .btn-submit {
+            color: black;
             background-color: #55E5A4;
         }
     }
