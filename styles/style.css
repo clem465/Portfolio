@@ -154,7 +154,7 @@ body {
             border-bottom-color: #dc3545;
         }
         .contact-left {
-            background-image: url("./images/getintouch.webp");
+            background-image: url("../images/getintouch.webp");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -278,6 +278,9 @@ body {
     .Contact {
         h2 {
             color: #FFFFFF;
+        }
+        span {
+            color: #55E5A4 !important;
         }
         .btn-interest.active {
             background: #55E5A4;
