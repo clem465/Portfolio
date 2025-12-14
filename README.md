@@ -24,11 +24,11 @@ L’objectif est de proposer un site **moderne, responsive, accessible et profes
 ## 🖌️ Maquette Figma
 
 * Maquette utilisée :
-  👉 **Lien Figma :** *à compléter*
+  👉 **Lien Figma :** https://www.figma.com/design/cAAcnkuswVtXpdi5PX567z/Designer-Developer-Portfolio--Community-?node-id=1-263&t=wjDBUz7LRo7TJ1bD-0
 
 * Aperçu de la maquette :
 
-  > (Ajouter ici une ou plusieurs captures d’écran de la maquette)
+  ![Aperçu du portfolio](assets/maquette.png)
 
 ---
 
@@ -137,3 +137,4 @@ Ce projet a été réalisé dans un cadre pédagogique et respecte les consignes
 ---
 
 Merci pour votre visite ✨
+
