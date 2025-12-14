@@ -107,7 +107,7 @@ Le portfolio est entièrement responsive et optimisé pour :
 ## 🌍 Déploiement
 
 * 🔗 **Site en ligne :** *https://clem465.github.io/Portfolio/*
-* 🔗 **Dépôt GitHub :** [https://github.com/clem465/Portfolio](https://github.com/clem465/Portfolio)
+* 🔗 **Dépôt GitHub :** *[https://github.com/clem465/Portfolio](https://github.com/clem465/Portfolio)*
 
 ---
 
@@ -138,6 +138,7 @@ Ce projet a été réalisé dans un cadre pédagogique et respecte les consignes
 ---
 
 Merci pour votre visite ✨
+
 
 
 
