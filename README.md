@@ -113,15 +113,17 @@ Le portfolio est entièrement responsive et optimisé pour :
 
 ## 📸 Aperçu du projet
 
-> Ajouter ici des captures d’écran ou un GIF animé du site final
+![Démo du site](assets/Animation1.gif)
+
+![Démo du site](assets/Animation2.gif)
 
 ---
 
 ## 👤 Auteur
 
-* **Nom Prénom** : *à compléter*
-* 📧 Email : *à compléter*
-* 💼 LinkedIn : *à compléter*
+* **Nom Prénom** : *HUBERT Clément*
+* 📧 Email : *clement.hubert78@gmail.com*
+* 💼 LinkedIn : *https://www.linkedin.com/in/cl%C3%A9ment-hubert-b6776034b/*
 
 ---
 
@@ -138,6 +140,7 @@ Ce projet a été réalisé dans un cadre pédagogique et respecte les consignes
 ---
 
 Merci pour votre visite ✨
+
 
 
 
