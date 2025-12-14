@@ -111,7 +111,7 @@ Aucun scroll horizontal et adaptation fluide selon la taille d’écran.
 
 ---
 
-## 📸 Aperçu du projet
+## Aperçu du projet
 
 ![Démo du site](assets/Animation1.gif)
 
@@ -140,6 +140,7 @@ Ce projet a été réalisé dans un cadre pédagogique et respecte les consignes
 ---
 
 Merci pour votre visite
+
 
 
 
