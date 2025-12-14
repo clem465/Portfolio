@@ -65,6 +65,7 @@ filterButtons.forEach(btn => {
 });
 
 const buttons = document.querySelectorAll(".btn-interest");
+const buttons1 = document.querySelectorAll(".btn-navbar");
 
 buttons.forEach(button => {
     button.addEventListener("click", () => {  // Ajouter un écouteur d'événements de clic
@@ -72,3 +73,14 @@ buttons.forEach(button => {
         button.classList.add("active");  // Ajouter la classe active au bouton cliqué
     });
 });
+
+// buttons1.forEach(button => {
+//     button.addEventListener("click", () => {
+//         buttons1.forEach(btn => btn.classList.remove("active")); // Retirer active de tous les boutons
+//         button.classList.add("active"); // Activer le bouton cliqué
+//         setTimeout(() => {         // Revenir à l'état précédent après 500 ms
+//             button.classList.remove("active");
+//         }, 500);
+
+//     });
+// });

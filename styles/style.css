@@ -5,10 +5,17 @@ body {
 
 .nav-bar {
     .btn-navbar {
-        color: rgb(255, 255, 255);
+        color: white;
         background-color: #26313F;
         border : none !important;
     }
+    .btn-navbar.active,
+    .btn-navbar:hover{
+        color: black;
+        background-color: #f5f6f8;
+        border: 1px solid #26313F !important;
+    }
+
     .img-logo {
         width: 60px;
         height: 60px;
@@ -196,6 +203,12 @@ body {
         .btn-navbar {
             color: black;
             background-color: #55E5A4;
+        }
+        .btn-navbar.active,
+        .btn-navbar:hover{
+            color: white;
+            background-color: #151C25;
+            border: 1px solid white !important;
         }
         .dropdown {
             button {
