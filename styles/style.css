@@ -145,6 +145,7 @@ body {
             border-color: #A9A9A9;
             color: #A9A9A9;
         }
+        .btn-interest.active,
         .btn-interest:hover {
             background: #26313F;
             color: white;
@@ -279,7 +280,7 @@ body {
         h2 {
             color: #FFFFFF;
         }
-        .btn-interest:hover {
+        .btn-interest.active {
             background: #55E5A4;
             color: black;
             border-color: #55E5A4;
@@ -359,5 +360,4 @@ body {
             }
         }
     }
-
 }

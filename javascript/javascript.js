@@ -12,15 +12,15 @@ themeToggles.forEach(toggle => {
         const image4 = document.getElementById("logo2");
 
         if (body.classList.contains("dark-mode")) {
-            image1.src = "./images/logo2.webp";
-            image2.src = "./images/photo2.webp";
-            image4.src = "./images/logo2.webp";
-            image3.src = "./images/light.webp";
+            image1.src = "../images/logo2.webp";
+            image2.src = "../images/photo2.webp";
+            image4.src = "../images/logo2.webp";
+            image3.src = "../images/light.webp";
         } else {
-            image1.src = "./images/logo.webp";
-            image2.src = "./images/photo.webp";
-            image4.src = "./images/logo.webp";
-            image3.src = "./images/dark.webp";
+            image1.src = "../images/logo.webp";
+            image2.src = "../images/photo.webp";
+            image4.src = "../images/logo.webp";
+            image3.src = "../images/dark.webp";
         }
     });
 });
@@ -48,9 +48,7 @@ const projects = document.querySelectorAll(".project-item");
 filterButtons.forEach(btn => {
     btn.addEventListener("click", () => {
         const filter = btn.dataset.filter;
-
-        // Active button style
-        filterButtons.forEach(b => b.classList.remove("active"));
+        filterButtons.forEach(b => b.classList.remove("active"));  // Active button style
         btn.classList.add("active");
 
         projects.forEach(project => {
@@ -61,5 +59,13 @@ filterButtons.forEach(btn => {
             }
         });
     });
+});
 
+const buttons = document.querySelectorAll(".btn-interest");
+
+buttons.forEach(button => {
+    button.addEventListener("click", () => {
+        buttons.forEach(btn => btn.classList.remove("active"));  // Retirer la classe active de tous les boutons
+        button.classList.add("active");  // Ajouter la classe active au bouton cliqué
+    });
 });
