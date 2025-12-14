@@ -25,9 +25,8 @@
                 <img loading="lazy" src="images/dark.webp" id="img-darkmode" alt="darkmode" class="img-darkmode" width="32" height="32">
             </a>
 
-            <!-- Menu déroulant pour mobile -->
             <div class="dropdown d-md-none">
-                <button class="border-0" type="button" id="mainMenu" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="border-0" type="button" id="mainMenu" data-bs-toggle="dropdown" aria-expanded="false aria-label="Main Menu">
                     <i class="fa-solid fa-bars"></i>
                 </button>
                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="mainMenu">
@@ -41,7 +40,6 @@
     </header>
 
     <main class="container">
-        <!-- Hero Section -->
         <section class="container py-5 justify-content-center">
             <div class="info row align-items-center justify-content-center my-5">
                 <div class="presentation col-12 col-md-10 d-flex flex-column text-md-start justify-content-center mb-4 mb-md-0">
@@ -59,14 +57,13 @@
                     </div>
                 </div>
                 <div class="image-presentation col-12 col-md-7 mt-4 mt-md-0">
-                    <img id="ProfilePicture" loading="lazy" src="images/photo.webp" alt="profile picture" class="img-fluid img-profile mt-5" width="428" height="369">
+                    <img id="ProfilePicture" src="images/photo.webp" alt="Clément Hubert" class="img-fluid img-profile mt-5" width="428" height="369" fetchpriority="high" decoding="async">
                 </div>
             </div>
         </section>
 
         <hr>
 
-        <!-- About Section -->
         <section id="about" class="About container py-5">
             <div class="row align-items-center flex-wrap justify-content-md-center">
                 <div class="col-12 col-md-10 col-xl-5 col-xxl-5 image-about position-relative d-flex justify-content-center order-2 order-md-1 my-5">
@@ -129,7 +126,6 @@
 
         <hr>
 
-        <!-- Projects Section -->
         <section id="project" class="Project container d-flex flex-column py-5 justify-content-center">
 
             <h3 class="text-center fw-bold mb-4">Projects</h3>
@@ -144,7 +140,6 @@
 
             <div class="card-project row g-4 justify-content-center">
 
-                <!-- Card 1 -->
                 <div class="col-lg-5 col-md-10 m-4 project-item" data-category="web">
                     <div class="card shadow border-0 h-100 rounded-4">
                         <img src="images/projetflotte.webp" alt="projetflotte" loading="lazy" class="card-img-top rounded-top-4">
@@ -170,7 +165,6 @@
                     </div>
                 </div>
 
-                <!-- Card 2 -->
                 <div class="col-lg-5 col-md-10 m-4 project-item" data-category="arduino">
                     <div class="card shadow border-0 h-100 rounded-4">
                         <img src="images/projetventi.webp" alt="projetventi" loading="lazy" class="card-img-top rounded-top-4">
@@ -195,7 +189,6 @@
                     </div>
                 </div>
 
-                <!-- Card 3 -->
                 <div class="col-lg-5 col-md-10 m-4 project-item" data-category="arduino">
                     <div class="card shadow border-0 h-100 rounded-4">
                         <img src="images/projetsimon.webp" alt="projetsimon" loading="lazy" class="card-img-top rounded-top-4">
@@ -214,13 +207,12 @@
                                 <img src="images/sketchuplogo.webp" loading="lazy" alt="language picture" class="img-logo img-fluid position-relative mx-2 my-2" width="40" height="40">
                             </div>
                             <div class="mt-auto d-flex justify-content-center">
-                                <a href="https://github.com/clem465/Projet-de-gestion-de-flotte-spatiale" class="btn btn-outline-dark rounded-0 btn-sm">Visit Site</a>
+                                <a href="https://github.com/clem465/ProjetSimon" class="btn btn-outline-dark rounded-0 btn-sm">Visit Site</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Card 4 -->
                 <div class="col-lg-5 col-md-10 m-4 project-item" data-category="web">
                     <div class="card shadow border-0 h-100 rounded-4">
                         <img src="images/projetportfolio.webp" alt="projetportfolio" loading="lazy" class="card-img-top rounded-top-4">
@@ -259,7 +251,6 @@
                 <div class="col-lg-10">
                     <div class="contact-card row g-0 shadow rounded-4 overflow-hidden">
 
-                        <!-- LEFT SIDE -->
                         <div class="col-md-6 contact-left d-none d-lg-flex align-items-center justify-content-center">
                             <div class="contact-text p-5">
                                 <h3 class="fw-bold text-white fs-1">
@@ -270,32 +261,27 @@
                             </div>
                         </div>
 
-                        <!-- RIGHT SIDE -->
                         <div class="col-lg-6 col-md-12 bg-white p-5 align-items-center">
                             <form id="contactForm" novalidate>
 
                                 <p class="fw-medium mb-3">I’m interested in...</p>
                                 
-                                <!-- Interest buttons -->
                                 <div class="d-flex gap-2 mb-2 flex-wrap">
-                                    <button type="button" class="btn btn-interest px-5">Arduino</button>
-                                    <button type="button" class="btn btn-interest px-5">Web</button>
+                                    <button type="button" class="btn btn-interest px-5 fw-medium">Arduino</button>
+                                    <button type="button" class="btn btn-interest px-5 fw-medium">Web</button>
                                 </div>
-                                <button type="button" class="btn btn-interest mb-4">Other</button>
+                                <button type="button" class="btn btn-interest mb-4 fw-medium">Other</button>
 
-                                <!-- Name -->
                                 <div class="mb-4">
                                     <input type="text" class="form-control border-top-0 border-start-0 border-end-0 rounded-0" placeholder="Your name" required>
                                     <div class="invalid-feedback">Name is required</div>
                                 </div>
 
-                                <!-- Email -->
                                 <div class="mb-4">
                                     <input type="email" class="form-control border-top-0 border-start-0 border-end-0 rounded-0" placeholder="Your email" required>
                                     <div class="invalid-feedback">Valid email required</div>
                                 </div>
 
-                                <!-- Message -->
                                 <div class="mb-5">
                                     <textarea class="form-control border-top-0 border-start-0 border-end-0 rounded-0" rows="3" placeholder="Your message" required></textarea>
                                     <div class="invalid-feedback">Message is required</div>
@@ -317,7 +303,6 @@
     
     </main>
 
-    <!-- Footer -->
     <footer id="contact-me" class="Contact-me">
         <div class="footer-logo d-flex justify-content-center">
             <img src="images/logo.webp" id="logo2" alt="logo" class="img-logo img-fluid">
