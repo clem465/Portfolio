@@ -76,7 +76,7 @@ Le portfolio est entièrement responsive et optimisé pour :
 ## 🛠️ Technologies utilisées
 
 * **HTML5** (structure sémantique)
-* **CSS / Framework CSS** : *Bootstrap
+* **CSS / Framework CSS** : *Bootstrap*
 * **JavaScript Vanilla**
 * **Outils** :
 
@@ -137,5 +137,6 @@ Ce projet a été réalisé dans un cadre pédagogique et respecte les consignes
 ---
 
 Merci pour votre visite ✨
+
 
 
