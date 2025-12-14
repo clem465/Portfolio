@@ -82,6 +82,7 @@ Le portfolio est entièrement responsive et optimisé pour :
 
   * Figma
   * Git & GitHub
+  * VsCode
 
 ---
 
@@ -137,6 +138,7 @@ Ce projet a été réalisé dans un cadre pédagogique et respecte les consignes
 ---
 
 Merci pour votre visite ✨
+
 
 
 
